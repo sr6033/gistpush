@@ -1,0 +1,28 @@
+{
+  "name": "gistpush",
+  "version": "1.0.0",
+  "description": "CLI tool to create, remove & manipulate github gists.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gistpush"
+  },
+  "keywords": [
+    "cli",
+    "gist"
+  ],
+  "author": "Shubham Rath",
+  "license": "ISC",
+  "bin": {
+    "gistpush": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.18.0",
+    "gists": "^2.0.0",
+    "progress": "^2.0.0",
+    "superagent": "^3.8.3",
+    "terminal-link": "^1.1.0"
+  }
+}
