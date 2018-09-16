@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/:package.svg)](https://www.npmjs.com/package/gistpush)
+[![NPM](https://nodei.co/npm/gistpush.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gistpush/)
 
 <p align="center">
   <img src="gistpush.gif" />
