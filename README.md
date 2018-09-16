@@ -31,4 +31,4 @@ I am open to both suggestions and help. So feel free to pull up an issue or send
 - [ ] Make password invisible
 
 Made with :blue_heart: :heavy_plus_sign: :coffee:.
-Gifs were made using ![Giphy](https://giphy.com/) and ![Recordit](http://recordit.co/).
+Gifs were made using ![](https://giphy.com/) and ![](http://recordit.co/).
