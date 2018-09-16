@@ -1,5 +1,8 @@
 [![NPM](https://nodei.co/npm/gistpush.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gistpush/)
 
+[![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/sr6033/gistpush)
+
+
 <p align="center">
   <img src="gistpush.gif" />
 </p>
