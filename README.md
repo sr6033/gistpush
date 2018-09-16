@@ -21,7 +21,7 @@ Now there is no need for you to open up your gist/github account to upload a gis
 Run `gistpush <file_name>`
 
 <p align="center">
-  <img src="https://rawcdn.githack.com/sr6033/gistpush/master/gister.gif?raw=true" />
+  <img src="https://rawcdn.githack.com/sr6033/gistpush/master/demo.gif?raw=true" />
 </p>
 
 For help, run: `gistpush -h`
