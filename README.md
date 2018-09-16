@@ -1,6 +1,6 @@
-[![NPM](https://nodei.co/npm/gistpush.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gistpush/)
+[![NPM](https://nodei.co/npm/gistpush.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gistpush/) 
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/sr6033/gistpush)
 
-[![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/sr6033/gistpush)
 
 
 <p align="center">
