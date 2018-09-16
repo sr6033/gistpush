@@ -10,6 +10,8 @@
 
 > Add your files/content to gist easily with a single command.
 
+Now there is no need for you to open up your gist/github account to upload a gist. Just write your code/content in a file and name the file as you would in the gist. Then upload it to your account as publicly or privately accessible using the command line.
+
 ## Installation
 
 `npm i --global gistpush`
