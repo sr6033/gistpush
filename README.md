@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="gistpush.gif" />
+  ![](gistpush.gif)
 </p>
 
 > Add your files/content to gist easily with a single command.
