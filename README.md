@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://rawcdn.githack.com/sr6033/gistpush/master/gistpush.gif?raw=true" />
+  <img src="gistpush.gif" />
 </p>
 
 > Add your files/content to gist easily with a single command.
