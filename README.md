@@ -20,6 +20,8 @@ Now there is no need for you to open up your gist/github account to upload a gis
 
 Run `gistpush <file_name>`
 
+> Supports multiple file uploads: `gistpush <file_name1> <file_name2> ...`
+
 <p align="center">
   <img src="https://rawcdn.githack.com/sr6033/gistpush/master/demo.gif?raw=true" />
 </p>
@@ -36,7 +38,9 @@ I am open to both suggestions and help. So feel free to pull up an issue or send
 
 ## To do
 - [ ] Add edit & delete gists options
-- [ ] Make password invisible
+- [x] Make password invisible
+- [ ] Remove unwanted space while typing text
+- [ ] Update gif
 
 :star: the repo if you liked it.  
 

@@ -1,10 +1,10 @@
 {
   "name": "gistpush",
-  "version": "1.0.0",
+  "version": "2.0.2",
   "description": "CLI tool to create, remove & manipulate github gists.",
   "main": "index.js",
   "scripts": {
-    "test": "gistpush"
+    "test": "mocha"
   },
   "keywords": [
     "cli",
@@ -15,14 +15,24 @@
   "bin": {
     "gistpush": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sr6033/gistpush"
+  },
   "dependencies": {
     "chalk": "^2.4.1",
+    "clui": "^0.3.6",
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
     "commander": "^2.18.0",
     "gists": "^2.0.0",
     "progress": "^2.0.0",
+    "prompt-sync": "^4.1.6",
     "superagent": "^3.8.3",
     "terminal-link": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
   }
 }
