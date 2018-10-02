@@ -20,7 +20,7 @@ Now there is no need for you to open up your gist/github account to upload a gis
 
 Run `gistpush <file_name>`
 
-> Supports multiple gists uploads: `gistpush <file_name1> <file_name2> ...`
+> Supports multiple gists upload: `gistpush <file_name1> <file_name2> ...`
 
 <p align="center">
   <img src="https://rawcdn.githack.com/sr6033/gistpush/master/demo.gif?raw=true" />
