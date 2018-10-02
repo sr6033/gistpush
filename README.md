@@ -1,6 +1,6 @@
 <div align="center">
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/sr6033/gistpush) &nbsp; [![NPM](https://nodei.co/npm/gistpush.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gistpush/) &nbsp; [![GitHub](https://img.shields.io/badge/node-%3E%3D0.11.2-blue.svg)]() 
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/sr6033/gistpush) &nbsp; [![NPM](https://nodei.co/npm/gistpush.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gistpush/) &nbsp; [![GitHub](https://img.shields.io/badge/node-%3E%3D6.0.0-blue.svg)]() 
 
 </div>
 
