@@ -8,11 +8,11 @@
   <img
    src="./gifs/gistpush.gif"
    alt="gistpush"
-   style="display: inline-block; width: 50%; white-space: normal; height: 150px;"
+   style="display: inline-block; width: 50%; white-space: normal; height: 250px;"
   />
   <img
    src="./gifs/multiple-gist-support.gif"
-   alt="gistpush now supports multiple gist uploads" style="display: inline-block; width: 50%; white-space: normal; height: 150px;"
+   alt="gistpush now supports multiple gist uploads" style="display: inline-block; width: 50%; white-space: normal; height: 250px;"
   />
 </div>
 
