@@ -15,7 +15,6 @@ var CLI = require('clui'),
 
 var username = '', password = '', details = [], privacy = [],
 	upload_complete = false;
-
 /*
 // Using promise (async)
 function input_data(fileList) {
@@ -89,7 +88,7 @@ function main() {
 		//console.log(' collect: %j', program.collect);
 
 		var count_upload = 0;
-
+		
 		co(function *() {
 			//console.log(program.args);
 			var fileList = [], links = [];
