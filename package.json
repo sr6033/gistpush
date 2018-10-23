@@ -23,10 +23,8 @@
     "chalk": "^2.4.1",
     "clui": "^0.3.6",
     "co": "^4.6.0",
-    "co-prompt": "^1.0.0",
     "commander": "^2.18.0",
     "gists": "^2.0.0",
-    "progress": "^2.0.0",
     "prompt-sync": "^4.1.6",
     "superagent": "^3.8.3",
     "terminal-link": "^1.1.0"
