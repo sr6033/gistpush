@@ -1,4 +1,5 @@
 const fs = require("./fs_as_promise");
+const utils = require("./utils");
 
 const getVersion = async () => {
   const json = await fs.readFile("package.json").catch(console.error);
@@ -9,5 +10,6 @@ const getVersion = async () => {
 
 module.exports = {
   getVersion,
-  fs
+  fs,
+  utils
 };
