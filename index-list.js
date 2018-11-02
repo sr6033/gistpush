@@ -2,8 +2,8 @@ const Gists = require("gists");
 const chalk = require("chalk");
 const program = require("commander");
 const prompt = require("prompt-sync")(); // Sync cli input
-const CLI = require("clui"),
-  Spinner = CLI.Spinner;
+const CLI = require("clui");
+const Spinner = CLI.Spinner;
 
 const { utils } = require("./utils");
 
@@ -62,7 +62,7 @@ program
   )
   .parse(process.argv);
 
-let usernameGists = program.args[0];
+const usernameGists = program.args[0];
 const login = program.login;
 const secret = program.token ? program.token.trim() : undefined;
 
@@ -96,14 +96,18 @@ if (!login) {
     process.exit(0);
   })();
 } else {
-  const fromPropt = prompt(chalk.yellow("Username to log in (push enter to use the username argument): "));
+  const fromPropt = prompt(
+    chalk.yellow(
+      "Username to log in (push enter to use the username argument): "
+    )
+  );
   const username = fromPropt ? fromPropt : usernameGists;
   if (!username) {
     console.error(chalk.red("Username not provided"));
     process.exit(1);
   }
 
-  let password = prompt.hide(chalk.yellow("Password: "));
+  const password = prompt.hide(chalk.yellow("Password: "));
   if (!password) {
     console.error(chalk.red("Password or Token not provided"));
     process.exit(1);
