@@ -1,8 +1,10 @@
-const program = require("commander");
-
-const { getVersion } = require("./utils");
+#!/usr/bin/env node
 
 (async function() {
+  const program = require("commander");
+
+  const { getVersion } = require("./utils");
+
   const version = await getVersion().catch(console.error);
 
   function main() {

@@ -78,6 +78,7 @@ if (!login) {
 
     checkAndPrintGists(gists);
     spinner.stop();
+    console.log("\n");
 
     process.exit(0);
   })();
@@ -93,6 +94,7 @@ if (!login) {
 
     checkAndPrintGists(gists);
     spinner.stop();
+    console.log("\n");
     process.exit(0);
   })();
 } else {
