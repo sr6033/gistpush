@@ -1,0 +1,50 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": "prettier",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    },
+    "sourceType": "module",
+    "ecmaVersion": 2017
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "indent": [
+      "error",
+      2,
+      {
+        "VariableDeclarator": {
+          "var": 2,
+          "let": 2,
+          "const": 3
+        }
+      }
+    ],
+    "linebreak-style": ["error", "unix"],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 2,
+        "maxEOF": 1
+      }
+    ],
+    "prefer-const": "warn",
+    "no-const-assign": "warn",
+    "no-this-before-super": "warn",
+    "no-undef": "warn",
+    "no-unreachable": "warn",
+    "no-unused-vars": "warn",
+    "constructor-super": "warn",
+    "valid-typeof": "warn",
+    "no-eval": "error",
+    "no-useless-return": "warn"
+  },
+  "plugins": ["prettier"]
+}

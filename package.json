@@ -2,9 +2,13 @@
   "name": "gistpush",
   "version": "2.0.2",
   "description": "CLI tool to create, remove & manipulate github gists.",
-  "main": "index.js",
+  "main": "gistpush.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "npm link",
+    "destroy": "npm uninstall",
+    "pretest": "npm run build",
+    "start": "node gistpush.js"
   },
   "keywords": [
     "cli",
@@ -13,7 +17,7 @@
   "author": "Shubham Rath",
   "license": "ISC",
   "bin": {
-    "gistpush": "./index.js"
+    "gistpush": "./gistpush.js"
   },
   "repository": {
     "type": "git",
@@ -33,6 +37,11 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "1.13.7"
   }
 }
